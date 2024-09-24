@@ -10,7 +10,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Abstract
 
 Voice Conversion (VC) must reflect the characteristics of the target speaker while maintaining the content of the source speech. The existing methods pay more attention to extracting more detailed representation instead of integrating different representations, unable to take into account both content and speaker characteristics, causing a trade-off problem between them. In this study, we propose IAFF-VC, which can be applied to non-parallel any-to-any VC, combining an encoder-decoder and an attentional feature fusion block. The proposed EMAFF block can group the channel dimensions into multiple sub-features which makes the spatial semantic features well-distributed inside each feature group to better combine different representations. We evaluated IAFF-VC on the VCTK dataset in terms of the maintenance of the source content, target speaker similarity, and converted naturalness. Experimental results for one-shot VC suggest that IAFF-VC achieves state-of-the-art performance while mitigating the trade-off problem encountered in the existing VC methods.
 
