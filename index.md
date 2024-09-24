@@ -30,9 +30,9 @@ converted voice:
 
 **S2S**
 
-| source                           | target          | IAFF-VC 
+| source                                                       | target          | IAFF-VC 
 
-| <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio> 
+| <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio> |
 
 
 *   This is an unordered list following a header.
