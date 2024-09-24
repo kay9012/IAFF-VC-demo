@@ -2,19 +2,10 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+We present audio examples of our model IAFF-VC. To perform any-to-any voice conversion, we set two scenarios: seen-to-seen (S2S) and unseen-to-unseen(U2U). In each scenario, we present four converted speech: male(M)-male(M), female(F)-female(F), male(M)-female(F), and female(F)-male(M).
+Furthermore, we perform the conversion in multi-utterance using 3 samples. Same scenarios are set in multi-utterance.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Abstract
-
-Voice Conversion (VC) must reflect the characteristics of the target speaker while maintaining the content of the source speech. The existing methods pay more attention to extracting more detailed representation instead of integrating different representations, unable to take into account both content and speaker characteristics, causing a trade-off problem between them. In this study, we propose IAFF-VC, which can be applied to non-parallel any-to-any VC, combining an encoder-decoder and an attentional feature fusion block. The proposed EMAFF block can group the channel dimensions into multiple sub-features which makes the spatial semantic features well-distributed inside each feature group to better combine different representations. We evaluated IAFF-VC on the VCTK dataset in terms of the maintenance of the source content, target speaker similarity, and converted naturalness. Experimental results for one-shot VC suggest that IAFF-VC achieves state-of-the-art performance while mitigating the trade-off problem encountered in the existing VC methods.
-
-## Audio examples
+# Audio examples
 
 >S2S: seen-to-seen; U2U: unseen-to-unseen
 >
@@ -140,7 +131,7 @@ M-F:
   
       <audio controls="controls" preload="none"> <source src="sample/u2u/M-F/p260_315_p336_225_cnv_gen.wav" type="audio/wav" /></audio> 
 
-### Many-to-Many conversion
+### Multi-utterance conversion
 
 **S2S:**
 
