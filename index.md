@@ -17,6 +17,7 @@ Voice Conversion (VC) must reflect the characteristics of the target speaker whi
 ## Audio examples
 
 > We set two scenarios: seen-to-seen and unseen-to-unseen.
+> 
 > F means "Female", and M maen "Male".
 
 
@@ -139,6 +140,126 @@ M-F:
   
       <audio controls="controls" preload="none"> <source src="sample/u2u/M-F/p260_315_p336_225_cnv_gen.wav" type="audio/wav" /></audio> 
 
+### Many-to-Many shot
+
+#### uttr=3
+
+**S2S:**
+
+F-F:
+
+*  source:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-F/from_p329_037_to_p280_342_p280_210_p280_305_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-F/from_p329_037_to_p280_342_p280_210_p280_305_trg0_gen.wav" type="audio/wav" /></audio>
+   
+*  converted:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-F/from_p329_037_to_p280_342_p280_210_p280_305_cnv_gen.wav" type="audio/wav" /></audio>
+   
+F-M:
+
+*  source:
+
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-M/from_s5_025_to_p345_254_p345_174_p345_298_src_gen.wav" type="audio/wav" /></audio>
+
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-M/from_s5_025_to_p345_254_p345_174_p345_298_trg0_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/F-M/from_s5_025_to_p345_254_p345_174_p345_298_cnv_gen.wav" type="audio/wav" /></audio> 
+
+M-M:
+
+*  source：
+
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-M/from_p334_209_to_p364_170_p364_196_p364_290_src_gen.wav" /></audio>
+   
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-M/from_p334_209_to_p364_170_p364_196_p364_290_trg0_gen.wav" type="audio/wav" /></audio>
+   
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-M/from_p334_209_to_p364_170_p364_196_p364_290_cnv_gen.wav" type="audio/wav" /></audio> 
+
+M-F:
+
+*  source：
+
+      <audio controls="controls" preload="none"> <source src="ssample/uttr=3/s2s/M-F/from_p345_254_to_p351_370_p351_258_p351_204_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-F/from_p345_254_to_p351_370_p351_258_p351_204_trg0_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-F/from_p345_254_to_p351_370_p351_258_p351_204_cnv_gen.wav" type="audio/wav" /></audio> 
+
+
+**U2U:**
+
+F-F:
+
+*  source:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-F/from_p343_296_to_p330_157_p330_255_p330_057_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-F/from_p343_296_to_p330_157_p330_255_p330_057_trg0_gen.wav" type="audio/wav" /></audio>
+   
+*  converted:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-F/from_p343_296_to_p330_157_p330_255_p330_057_cnv_gen.wav" type="audio/wav" /></audio>
+   
+F-M:
+
+*  source:
+
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-M/from_p343_202_to_p245_129_p245_136_p245_322_src_gen.wav" type="audio/wav" /></audio>
+
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-M/from_p343_202_to_p245_129_p245_136_p245_322_trg0_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/F-M/from_p343_202_to_p245_129_p245_136_p245_322_cnv_gen.wav" type="audio/wav" /></audio> 
+
+M-M:
+
+*  source：
+
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-M/from_p271_250_to_p245_065_p245_173_p245_261_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-M/from_p271_250_to_p245_065_p245_173_p245_261_trg0_gen.wav" type="audio/wav" /></audio>
+   
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-M/from_p271_250_to_p245_065_p245_173_p245_261_cnv_gen.wav" type="audio/wav" /></audio> 
+
+M-F:
+
+*  source：
+
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-F/from_p285_221_to_p343_277_p343_386_p343_242_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-F/from_p285_221_to_p343_277_p343_386_p343_242_trg0_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/u2u/M-F/from_p285_221_to_p343_277_p343_386_p343_242_cnv_gen.wav" type="audio/wav" /></audio> 
 
 
 
