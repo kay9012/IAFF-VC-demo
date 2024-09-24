@@ -3,5 +3,3 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: The Demo of IAFF-VC
 description: Kai Guo<sup>a,b</sup>, Yang Xu^{a,b,∗} and Sicong Zhang^{a,b}
-School of Cyber Science and Technology, Guizhou Normal University, Guiyang 550001, China
-bKey Laboratory of Information and computing Science Guizhou Province, Guizhou Normal University, Guiyang 550001, China
