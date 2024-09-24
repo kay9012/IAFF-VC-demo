@@ -33,10 +33,15 @@ converted voice:
 F-F:
 
 *  source:
-     <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio> 
+  
+     <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio>
+   
 *  target:
-     <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_trg_gen.wav" type="audio/wav" /></audio> 
+  
+     <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_trg_gen.wav" type="audio/wav" /></audio>
+   
 *  converted:
+  
      <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_cnv_gen.wav" type="audio/wav" /></audio>
    
 F-M:
