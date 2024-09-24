@@ -2,6 +2,6 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: The Demo of IAFF-VC
-description: Kai Guo<sup>a,b</sup>, Yang Xu<sup>a,b,∗</sup>, and Sicong Zhang<sup>a,b</sup>
-description: <sup>a</sup>School of Cyber Science and Technology, Guizhou Normal University, Guiyang 550001, China
-description: <sup>b</sup>Key Laboratory of Information and computing Science Guizhou Province, Guizhou Normal University, Guiyang 550001, China
+description: Kai Guo<sup>a,b</sup>, Yang Xu<sup>a,b,∗</sup>, and Sicong Zhang<sup>a,b</sup>  
+<sup>a</sup>School of Cyber Science and Technology, Guizhou Normal University, Guiyang 550001, China  
+<sup>b</sup>Key Laboratory of Information and computing Science Guizhou Province, Guizhou Normal University, Guiyang 550001, China
