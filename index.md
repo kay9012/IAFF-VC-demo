@@ -48,27 +48,43 @@ F-M:
 
 *  source
 
-<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_src_gen.wav" type="audio/wav" /></audio>
+     <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_src_gen.wav" type="audio/wav" /></audio>
 
 *  target:
   
-<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_trg_gen.wav" type="audio/wav" /></audio> 
+     <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_trg_gen.wav" type="audio/wav" /></audio> 
 
 *  converted:
   
-<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_cnv_gen.wav" type="audio/wav" /></audio> 
+     <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_cnv_gen.wav" type="audio/wav" /></audio> 
 
 M-M:
 
-*  source：     <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_src_gen.wav" type="audio/wav" /></audio> 
-*  target:      <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_trg_gen.wav" type="audio/wav" /></audio> 
-*  converted:   <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_cnv_gen.wav" type="audio/wav" /></audio> 
+*  source：
+
+     <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+     <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_trg_gen.wav" type="audio/wav" /></audio>
+   
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/s2s/M-M/p252_239_p278_024_cnv_gen.wav" type="audio/wav" /></audio> 
 
 M-F:
 
-*  source：     <audio controls="controls" preload="none"> <source src="ssample/s2s/M-F/p226_273_p318_024_src_gen.wav" type="audio/wav" /></audio> 
-*  target:      <audio controls="controls" preload="none"> <source src="sample/s2s/M-F/p226_273_p318_024_trg_gen.wav" type="audio/wav" /></audio> 
-*  converted:   <audio controls="controls" preload="none"> <source src="sample/s2s/M-F/p226_273_p318_024_cnv_gen.wav" type="audio/wav" /></audio> 
+*  source：
+
+      <audio controls="controls" preload="none"> <source src="ssample/s2s/M-F/p226_273_p318_024_src_gen.wav" type="audio/wav" /></audio>
+   
+*  target:
+  
+      <audio controls="controls" preload="none"> <source src="sample/s2s/M-F/p226_273_p318_024_trg_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+      <audio controls="controls" preload="none"> <source src="sample/s2s/M-F/p226_273_p318_024_cnv_gen.wav" type="audio/wav" /></audio> 
 
 
 ##### Header 5
