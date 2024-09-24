@@ -46,9 +46,17 @@ F-F:
    
 F-M:
 
-*  source：     <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_src_gen.wav" type="audio/wav" /></audio> 
-*  target:      <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_trg_gen.wav" type="audio/wav" /></audio> 
-*  converted:   <audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_cnv_gen.wav" type="audio/wav" /></audio> 
+*  source
+
+<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_src_gen.wav" type="audio/wav" /></audio>
+
+*  target:
+  
+<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_trg_gen.wav" type="audio/wav" /></audio> 
+
+*  converted:
+  
+<audio controls="controls" preload="none"> <source src="sample/s2s/F-M/p228_274_p279_288_cnv_gen.wav" type="audio/wav" /></audio> 
 
 M-M:
 
