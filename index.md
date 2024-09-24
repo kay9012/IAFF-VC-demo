@@ -32,13 +32,13 @@ converted voice:
 
 F-F:
 
-source： 
+*  source： 
 <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio> 
 
-target:
+*  target:
 <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_trg_gen.wav" type="audio/wav" /></audio> 
 
-converted:
+*  converted:
 <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_cnv_gen.wav" type="audio/wav" /></audio> 
 
 
