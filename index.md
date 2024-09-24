@@ -21,8 +21,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > When something is important enough, you do it even if the odds are not in your favor.
 > 
 converted voice: <audio src="/audio/p226_118_p284_279_cnv_gen.wav"></audio>
-<audio id="audio" controls="" preload="none">
-      <source id="wav" src="/audio/p226_118_p284_279_cnv_gen.wav">
+<audio id="audio" controls="controls" preload="none">
+      <source src="audio/p226_118_p284_279_cnv_gen.wav" type="audio/wav" />
 </audio>
 
 ### Header 3
