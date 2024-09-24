@@ -23,8 +23,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 converted voice: 
 <audio id="audio" controls="controls" preload="none">
       <source src="audio/7g3yx-0w770.mp3" type="audio/mp3" /> 
-      <source src="audio/7g3yx-0w770.ogg" type="audio/ogg" />
-Your browser does not support this audio format.
 </audio>
 
 ### Header 3
