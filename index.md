@@ -12,19 +12,12 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Voice Conversion (VC) must reflect the characteristics of the target speaker while maintaining the content of the source speech. The existing methods pay more attention to extracting more detailed representation instead of integrating different representations, unable to take into account both content and speaker characteristics, causing a trade-off problem between them. In this study, we propose IAFF-VC, which can be applied to non-parallel any-to-any VC, combining an encoder-decoder and an attentional feature fusion block. The proposed EMAFF block can group the channel dimensions into multiple sub-features which makes the spatial semantic features well-distributed inside each feature group to better combine different representations. We evaluated IAFF-VC on the VCTK dataset in terms of the maintenance of the source content, target speaker similarity, and converted naturalness. Experimental results for one-shot VC suggest that IAFF-VC achieves state-of-the-art performance while mitigating the trade-off problem encountered in the existing VC methods.
 
 ## Audio examples
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-
-converted voice: 
-<audio preload="none">
-      <source src="audio/p226_118_p284_279_cnv_gen.wav" type="audio/wav" /> 
-</audio>
+> We set two scenarios: seen-to-seen and unseen-to-unseen.
+> F means "Female", and M maen "Male".
 
 
 ### Any-to-Any shot
@@ -147,75 +140,5 @@ M-F:
       <audio controls="controls" preload="none"> <source src="sample/u2u/M-F/p260_315_p336_225_cnv_gen.wav" type="audio/wav" /></audio> 
 
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
