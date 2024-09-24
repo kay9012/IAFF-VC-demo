@@ -14,7 +14,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
+## Audio examples
 
 > This is a blockquote following a header.
 >
@@ -25,24 +25,12 @@ converted voice:
       <source src="audio/p226_118_p284_279_cnv_gen.wav" type="audio/wav" /> 
 </audio>
 
-### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Any-to-Any shot
+**S2S**
+| source       | target          | IAFF-VC |
+| <audio controls="controls" preload="none"> <source src="audio/p226_118_p284_279_cnv_gen.wav" type="audio/wav" /></audio> |
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
