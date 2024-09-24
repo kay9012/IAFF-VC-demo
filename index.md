@@ -16,12 +16,12 @@ Voice Conversion (VC) must reflect the characteristics of the target speaker whi
 
 ## Audio examples
 
-> We set two scenarios: seen-to-seen and unseen-to-unseen.
-> 
-> F means "Female", and M maen "Male".
+>S2S: seen-to-seen; U2U: unseen-to-unseen
+>
+>F: Female; M:Male
 
 
-### Any-to-Any shot
+### Any-to-Any conversion
 
 **S2S:**
 
@@ -140,9 +140,7 @@ M-F:
   
       <audio controls="controls" preload="none"> <source src="sample/u2u/M-F/p260_315_p336_225_cnv_gen.wav" type="audio/wav" /></audio> 
 
-### Many-to-Many shot
-
-#### uttr=3
+### Many-to-Many conversion
 
 **S2S:**
 
