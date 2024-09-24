@@ -12,7 +12,7 @@ Furthermore, we perform the conversion in multi-utterance using 3 samples. Same 
 >F: Female; M:Male
 
 
-### Any-to-Any conversion
+## Any-to-Any conversion
 
 **S2S:**
 
@@ -131,7 +131,7 @@ M-F:
   
       <audio controls="controls" preload="none"> <source src="sample/u2u/M-F/p260_315_p336_225_cnv_gen.wav" type="audio/wav" /></audio> 
 
-### Multi-utterance conversion
+## Multi-utterance conversion
 
 **S2S:**
 
@@ -181,7 +181,7 @@ M-F:
 
 *  source：
 
-      <audio controls="controls" preload="none"> <source src="ssample/uttr=3/s2s/M-F/from_p345_254_to_p351_370_p351_258_p351_204_src_gen.wav" type="audio/wav" /></audio>
+      <audio controls="controls" preload="none"> <source src="sample/uttr=3/s2s/M-F/from_p345_254_to_p351_370_p351_258_p351_204_src_gen.wav" type="audio/wav" /></audio>
    
 *  target:
   
