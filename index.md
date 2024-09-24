@@ -30,7 +30,7 @@ converted voice:
 
 **S2S**
 
-*    F-F 
+F-F:
 
 source： 
 <audio controls="controls" preload="none"> <source src="sample/s2s/F-F/p234_029_p308_414_src_gen.wav" type="audio/wav" /></audio> 
